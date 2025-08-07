@@ -1,3 +1,6 @@
+<?php
+$greeting = "Hello!"
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +11,7 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1><?php echo $greeting ?></h1>
 </body>
 
 </html>
